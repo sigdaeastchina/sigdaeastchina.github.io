@@ -8,7 +8,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:0; padding:0; font-size:16px; font-family:serif; color:#000000; background-color:#FFFFFF;}
+body{margin:0; padding:0; font-size:16px; color:#000000; background-color:#FFFFFF;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -32,8 +32,8 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 
 /*----------------------------------------------Generalise-------------------------------------*/
-h1{margin:0; padding:0; font-size:30px; color:#000000; font-weight:normal; font-style:normal; line-height:normal; font-family:serif;}
-h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; color:#8B2525; font-weight:normal; font-style:normal; line-height:normal; font-family:serif;}
+h1{font-weight:normal; font-style:normal; line-height:normal;}
+h2, h3, h4, h5, h6{margin:0; padding:0; color:#8B2525; font-weight:normal; font-style:normal; line-height:normal;}
 
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
@@ -44,12 +44,12 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 /*----------------------------------------------Header-------------------------------------*/
 #header{display:block; margin:0 auto; padding:0 100px 0 100px;}
 
-#header nav{display:inline-block; margin:0; padding:10px 0; color:#FFFFFF; background-color:#212529;}
+#header nav{display:inline-block; margin:0; padding:5px 0; color:#FFFFFF; background-color:#212529;}
 #header nav ul{padding:0 20px;}
 #header nav ul li{display:inline-block; margin-right:10px;}
 #header nav ul li.last{margin-right:0;}
 #header nav ul li.top{margin-right:40px;}
-#header nav ul li a{color:#EEEEEE; font-size:22px; background-color:#212529;}
+#header nav ul li a{color:#EEEEEE; font-size:16px; background-color:#212529;}
 #header nav ul li a:hover{color:#FF9900; background-color:#212529;}
 
 
