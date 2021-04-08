@@ -80,7 +80,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #header{padding:20px 0;}
 
-#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup{display:inline-block; float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
@@ -89,11 +89,11 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#0050A0; border:0px solid #666666;}
 #header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
 
-#header nav{display:block; width:100%; margin:0; padding:20px 0; color:#C0BAB6; background-color:#0050A0; clear:both;}
+#header nav{display:inline-block; width:100%; margin:0; padding:20px 0; color:#C0BAB6; background-color:#0050A0; clear:both;}
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline-block; margin-right:10px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav li.top{margin-right:40px;}
+#header nav li.top{margin-right:0px;}
 #header nav li a{color:#EEEEEE; font-size:14px; background-color:#0050A0;}
 #header nav li a:hover{color:#FF9900; background-color:#0050A0;}
 #header nav ul ul{display: none; margin: 0px; padding: 0px; line-height:50px; position: absolute}
