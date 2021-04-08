@@ -39,7 +39,7 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
-#header, #container, #footer{display:block; width:1200px; margin:0 auto;}
+#container, #footer{display:block; width:960px; margin:0 auto;}
 
 nav ul{margin:0; padding:0; list-style:none;}
 
@@ -70,16 +70,15 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 .lastbox{margin-right:0;}
 
 /*----------------------------------------------Header-------------------------------------*/
+#header{display:block; width:960px; margin:0 auto; padding:10px 0;}
 
-#header{padding:20px 0;}
-
-#header nav{display:inline-block; margin:0; padding:20px 0; color:#FFFFFF; background-color:#212529;}
+#header nav{display:inline-block; margin:0; padding:10px 0; color:#FFFFFF; background-color:#212529;}
 #header nav ul{padding:0 20px;}
-#header nav li{display:inline-block; margin-right:10px; text-transform:uppercase;}
-#header nav li.last{margin-right:0;}
-#header nav li.top{margin-right:40px;}
-#header nav li a{color:#EEEEEE; font-size:14px; background-color:#212529;}
-#header nav li a:hover{color:#FF9900; background-color:#0050A0;}
+#header nav ul li{display:inline-block; margin-right:10px;}
+#header nav ul li.last{margin-right:0;}
+#header nav ul li.top{margin-right:40px;}
+#header nav ul li a{color:#EEEEEE; font-size:30px; background-color:#212529;}
+#header nav ul li a:hover{color:#FF9900; background-color:#212529;}
 
 
 
