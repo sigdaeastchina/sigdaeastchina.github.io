@@ -89,15 +89,16 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#0050A0; border:0px solid #666666;}
 #header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
 
-#header nav{display:inline-block; width:100%; margin:0; padding:20px 0; color:#FFFFFF; background-color:#212529; clear:both;}
+#header nav{display:inline-block; margin:0; padding:20px 0; color:#FFFFFF; background-color:#212529;}
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline-block; margin-right:10px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav li.top{margin-right:0px;}
+#header nav li.top{margin-right:40px;}
 #header nav li a{color:#EEEEEE; font-size:14px; background-color:#0050A0;}
 #header nav li a:hover{color:#FF9900; background-color:#0050A0;}
 #header nav ul ul{display: none; margin: 0px; padding: 0px; line-height:50px; position: absolute}
-#header nav ul li:hover ul{z-index: 99;	display: block; width:220px; line-height:25px; background-color:#003570;}
+#header nav ul li:hover ul{z-index: 99;	display: block; width:220px; line-height:25px; background-color:#212529;}
+
 #header nav ul li ul li a{z-index: 99; background-color:#003570;}
 #header nav ul li ul li a:hover{z-index: 99; background-color:#003570;}
 
