@@ -53,7 +53,9 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 #header nav ul li a{color:#EEEEEE; font-size:18px; background-color:#212529;}
 #header nav ul li a:hover{color:#FF9900; background-color:#212529;}
 
-
+/*----------------------------------------------Footer-------------------------------------*/
+#footer{display:block; width:960px; margin:0 auto; padding:5px 0;}
+#footer p{margin:0; padding:0;}
 
 
 
