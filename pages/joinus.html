@@ -103,51 +103,45 @@
                             <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_degree" id="cand_degree" required>
                         </div>
                 </div>
+		
+		<div style="padding:0; margin:0 0 16px 0; box-sizing: border-box; display: flex;">
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_company" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">单位</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_company" id="cand_company" required>
+                        </div>
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_school" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">院系/部门</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_school" id="cand_school" required>
+                        </div>
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_title" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">职称</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_title" id="cand_title" required>
+                        </div>
+                        <div style="display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_role" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">职务</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_role" id="cand_role">
+                        </div>
+                </div>
+		
+		<div style="padding:0; margin:0 0 16px 0; box-sizing: border-box; display: flex;">
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_interest" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">研究方向</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_interest" id="cand_interest" required>
+                        </div>
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_addr" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">通讯地址</label><br/>
+                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_addr" id="cand_addr" required>
+                        </div>
+                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_email" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">电子邮箱</label><br/>
+                            <input type="email" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_email" id="cand_email" required>
+                        </div>
+                        <div style="display:block; width:25%; padding:0 12px; margin:0;">
+                            <label for="cand_phone" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">手机号码</label><br/>
+                            <input type="tel" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_phone" id="cand_phone" pattern="[0-9]{11}"a required>
+                        </div>
+                </div>
 		    
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="col">
-                            <label for="cand_company" class="form-label required">单位</label>
-                            <input type="text" class="form-control" name="cand_company" id="cand_company" required>
-    
-                        </div>
-                        <div class="col">
-                            <label for="cand_school" class="form-label required">院系/部门</label>
-                            <input type="text" class="form-control" name="cand_school" id="cand_school" required>
-    
-                        </div>
-                        <div class="col">
-                            <label for="cand_title" class="form-label required">职称</label>
-                            <input type="text" class="form-control" name="cand_title" id="cand_title" required>
-            
-                        </div>
-                        <div class="col">
-                            <label for="cand_role" class="form-label">职务</label>
-                            <input type="text" class="form-control" name="cand_role" id="cand_role">
-            
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="col">
-                            <label for="cand_interest" class="form-label required">研究方向</label>
-                            <input type="text" class="form-control" name="cand_interest" id="cand_interest" required>
-                        </div>
-                        <div class="col">
-                            <label for="cand_addr" class="form-label required">通讯地址</label>
-                            <input type="text" class="form-control" name="cand_addr" id="cand_addr" required>
-                        </div>
-                        <div class="col">
-                            <label for="cand_email" class="form-label required">电子邮箱</label>
-                            <input type="email" class="form-control" name="cand_email" id="cand_email" required>
-                        </div>
-                        <div class="col">
-                            <label for="cand_phone" class="form-label required">手机号码</label>
-                            <input type="tel" class="form-control" name="cand_phone" id="cand_phone" pattern="[0-9]{11}"a required>
-                        </div>
-                    </div>
-                </div>
                 <div class="mb-3">
                     <div class="row">
                         <div class="col">
