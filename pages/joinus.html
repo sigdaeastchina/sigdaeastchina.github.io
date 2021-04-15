@@ -43,7 +43,7 @@
         <div class="text" style="text-indent:2em; text-align:justify; padding:0; margin:16px 0 0 0">
             <p>ACM SIGDA China专委会委员由本领域内有一定学术成就和影响力的专业人士担任，且必须是ACM专业会员。
 		    ACM专业会员可申请本专委会委员资格，申请人须填写如下表格，并得到3位本专委会在任<b>常务委员会委员</b>推荐
-		    （推荐信内容建议不超过100字，由推荐人本人发送到sigbedchina@gmail.com），方可成为专委会委员正式候选人。
+		    （推荐信内容建议不超过100字，由推荐人本人发送到czhuo@zju.edu.cn），方可成为专委会委员正式候选人。
 		    委员增补须候选人到场，由年度工作会议投票选举产生，到会委员半数以上通过方可当选。</p>
 
             <p><span style="color:#ff0000">委员连续两次不参加专业分会组织的学术年会、工作会议或其它重要活动（线下形式，特殊情况如疫情造成的交通不便除外）</span>
@@ -60,76 +60,12 @@
                 &emsp;&emsp;1) 遵守ACM中国理事会章程和条例，执行专业分会决议，维护专业分会的声誉和权益;<br>
                 &emsp;&emsp;2) 关心专业分会工作，按规定参加专业分会组织的工作会议和活动，完成专业分会委托的工作。</p>
         </div>
+	
+	<a href="../application.zip">下载申请表</a>
 	    
         <div style="border:1px solid #000; border-color:#d8d8d8; padding:16px; margin:16px 0 16px 0;">
 
-            <form action="http://sigbedchina.org/joinus/newCand" enctype="multipart/form-data" method="POST">
-                <div style="padding:0; margin:16px 0 16px 0; box-sizing: border-box; display: flex;">
-                        <div style="box-sizing: border-box; display:block; width:16.6666666667%; padding:0 12px; margin:0;">
-                            <label for="cand_name" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">姓名</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_name" id="cand_name" required>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:8.3333333333%; padding:0 12px; margin:0;">
-                            <label style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">性别</label><br/>
-                                <input  type="radio" name="cand_gender" id="cand_gender" value="m"
-                                    required>
-                                <label  for="cand_gender">男</label><br/>
-                                <input  type="radio" name="cand_gender" id="cand_gender" value="f">
-                                <label  for="cand_gender">女</label>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_website" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">个人网站</label><br/>
-                            <input type="url" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_website" id="cand_website">
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_nationality" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">民族</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_nationality" id="cand_nationality" required>
-                        </div>
-                        <div style="display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_birthday" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">出生年月</label><br/>
-                            <input type="month" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_birthday" id="cand_birthday" required>
-                        </div>
-                </div>
-    		
-                <div style="padding:0; margin:0 0 16px 0; box-sizing: border-box; display: flex;">
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_nationality" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">照片</label><br/>
-                            <input type="file" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_photo" id="cand_photo"
-                                aria-describedby="photoSpec" required>
-			    <div  id="photoSpec">1M以内</div>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_hometown" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">籍贯</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_hometown" id="cand_hometown" required>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_acmid" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">ACM会员号</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_acmid" id="cand_acmid" required>
-                        </div>
-                        <div style="display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_degree" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">学历</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_degree" id="cand_degree" required>
-                        </div>
-                </div>
-		
-		<div style="padding:0; margin:0 0 16px 0; box-sizing: border-box; display: flex;">
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_company" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">单位</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_company" id="cand_company" required>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_school" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">院系/部门</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_school" id="cand_school" required>
-                        </div>
-                        <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_title" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">职称</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_title" id="cand_title" required>
-                        </div>
-                        <div style="display:block; width:25%; padding:0 12px; margin:0;">
-                            <label for="cand_role" style="box-sizing: border-box; display: inline-block; margin:0 0 8px 0;">职务</label><br/>
-                            <input type="text" style="box-sizing: border-box; display: inline-block; width:100%; line-height: 1.5; padding:6px 12px 6px 12px; margin:0; border:1px solid #ced4da; border-radius:.25rem;" name="cand_role" id="cand_role">
-                        </div>
-                </div>
+            <form action="http://sigbedchina.org/joinus/newCand" enctype="multipart/form-data" method="POST"> 				
 		
 		<div style="padding:0; margin:0 0 16px 0; box-sizing: border-box; display: flex;">
                         <div style="box-sizing: border-box; display:block; width:25%; padding:0 12px; margin:0;">
@@ -182,7 +118,7 @@
         </div>
 	
         <div style="margin:0 0 16px 0;">
-            提交申请后请提醒推荐人将不超过100字的推荐信发送到sigbedchina@gmail.com，标题为"[专委申请]XX推荐YY"
+            请申请人将申请信直接发送到邮箱：czhuo@zju.edu.cn和邮箱：jiangli@cs.sjtu.edu.cn，标题为"[专委申请]"
         </div>
 
 </div>
